@@ -1,0 +1,96 @@
+.navbar-container {
+    background-color:darkblue;
+    color: white;
+    min-height: 100px
+}
+
+.navbar-container a{
+    color: white;
+}
+
+.banner-container {
+    background-color: gray;
+    height: 300px;
+}
+
+.navbar2-container {
+    background-color:darkblue;
+    color: white;
+    height: 50px
+}
+
+.navbar2-container h6{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid white;
+    margin-bottom: 0px;
+}
+
+.navbar2-container a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar2-container a:hover{
+    color: orange;
+}
+
+.is-active{
+    color: orange!important
+}
+
+.banner-container{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    position: relative;
+    background-image: url("../images/pennsylvania.jpeg");
+    background-repeat: no-repeat;
+    /* background-attachment:  ; */
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner-container a{
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 10px
+
+}
+
+.banner-container .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* max-width: 600px; */
+    margin: auto;
+    color: white;
+    text-shadow: 2px 2px #030303;
+}
+
+.page {
+    min-height: 600px;
+}
+
+.carousel img{
+    max-height: 400px;
+}
+.carousel a{
+    color: black
+}
+.carousel .carousel-caption{
+    color: white;
+    background: black;
+}
+
+.footer-container {
+    background-color: darkblue;
+    color: white;
+    height: 100px;
+    position: absolute;
+    top: 200vh
+}
+
